@@ -127,7 +127,7 @@ a {
 .social-media {
 	float:right;
 	width: 70%;
-text-align: right;
+	text-align: right;
 }
 
 
@@ -150,9 +150,9 @@ text-align: right;
 	padding-top: 56px;
 }
 
-.copyright {
-	width: 20%;
+.copyright {	
 	float: left;
+	width: 20%;
 	margin-top: 46px;
 }
 
@@ -160,8 +160,6 @@ text-align: right;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 }
-
-
 
 
 /*queries*/
@@ -177,10 +175,10 @@ text-align: right;
 @media screen and (max-width : 760px){
 /* STYLES GO HERE */ 
 	.logo{
-	margin-top: 15px;
-	clear: both;
-	width: 100%;
-	text-align: center;
+		width: 100%;
+		margin-top: 15px;
+		clear: both;
+		text-align: center;
 	}
 
 	nav {
