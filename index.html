@@ -1,0 +1,87 @@
+<!doctype HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+		<link rel="stylesheet" href="assets/styles/normalize.css">
+		<link rel="stylesheet" href="assets/styles/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans|Pacifico' rel='stylesheet' type='text/css'>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="assets/scripts/jquery.sticky.js"></script>
+		<script src="assets/scripts/main.js"></script>
+		<script src="assets/scripts/myScroller.js"></script>
+		 <script>
+    		$(window).load(function(){
+     		 $(".header").sticky({ topSpacing: 0 });
+     		 $(".scrollable").myScroller();
+    		});
+  </script>
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	</head>
+	<body>
+		<header id="website-header">
+			<div class="container">
+				<div class="inner-container header">
+					<div class="logo">
+						<a href="#website-header"><img src="assets/images/logo.png" alt=""></a>
+					</div>
+						<nav>
+							<a class="nav-item scrollable" href="#whyUseIt">Why Use Handsome Bookmarks</a>
+							<a class="nav-item scrollable" href="#howItWorks">How It Works</a>
+							<a class="callToAction" href="#">Download</a>
+						</nav>	
+					</div>
+				</div> <!-- /container -->
+			</header>
+			<section id="slogan">
+				<div class="container">
+					<div class="inner-container"> 
+						<h1>The Chrome extension that delivers the gift of sleek Bookmarking.
+						</h1>
+					</div>
+				</div>
+			</section>
+			<section id="product-images">
+				<div class="container">
+					<div class="inner-container">		
+						<img id="before" class="product-image" src="assets/images/before_image.jpg" alt="before handsome bookmarks">
+						<img id="after" class="product-image" src="assets/images/after_image.jpg" alt="after handsome bookmarks">
+					</div>
+				</div>
+			</section>
+						<section id="whyUseIt">
+				<div class="container">
+					<div class="inner-container">
+						<h2 class="show_more"><a>Why Use It</a></h2>
+						<div class="reasons">
+							<p>Easy to access all bookmarks</p>
+							<p>All bookmarks are viewable in organized folders</p>
+							<p>It's neat and tidy! For the neat freak in you.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- slider -->
+			<section id="howItWorks">
+				<div class="container">
+					<div class="inner-container">
+						<h2>How it works</h2>
+						<h3>Handsome Bookmarking runs some magic in the background which pulls data from your bookmarks menu and then displays it as the first page you land on when you open google chrome! </h3>
+						<p>1) Download the Plugin from chrome extension Library
+						<p>2) Select your theme </p>
+						<p>3) Click arrange and you are done! </p>
+					</div>
+				</div>
+			</section>
+			<!-- /slider -->
+			<!--dropdownSlide-->
+			<footer>
+					<a class="callToAction scrollable" href="#website-header">Back To Top</a>
+			</footer>
+			<!--/dropdownSlide-->
+			</div>
+		</div>
+	</body>
+</html>

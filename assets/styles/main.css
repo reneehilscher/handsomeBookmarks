@@ -1,0 +1,126 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*layout*/
+.container {
+	max-width:960px;
+	margin:0 auto;
+	overflow: auto;
+}
+
+.inner-container {
+	width:100%;
+	overflow:auto;
+
+}
+/*product - images*/
+#before {
+	width: 49%;
+	float: left;
+}
+
+#after {
+	width: 49%;
+	float: right;
+}
+
+.callToAction {
+	width: 128px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #f34e2e;
+	background-color: #f34e2e;
+	color: white;
+	margin-right: 0px;
+}
+
+/*typography*/
+h2 {
+	font-family: 'Pacifico', 'cursive';
+	font-size: 30px;
+	text-align: center;
+}
+
+nav {
+	width: 60%;
+	float: right;
+	margin-top: 82px;
+	padding-bottom: 14px;
+}
+section{ 
+	margin-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1 {
+	text-align: center;
+}
+h1, p , h3 {
+	font-family: 'Josefin Sans', 'sans-serif';
+}
+p {
+	font-size: 18px;
+}
+nav a {
+		padding-top: 10px;
+		margin-right:10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*sections*/
+
+#slogan {
+	margin-top: 80px;
+	padding-bottom:0px;
+}
+
+#whyUseIt {
+	background: #f34e2e;
+}
+
+#testimonials {
+	background: #cddfcb;
+}
+
+.logo {
+	float: left;
+	margin-top: 15px;
+}
+
+#website-footer {
+	background-color:#f8f9eb;
+}
+
+#website-header {
+	height:120px;
+	background-color:#f8f9eb;
+}
+.reasons {
+	display:none;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.show_more a {
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.header {
+/*	position:fixed;*/
+	max-width:960px;
+	background-color:#f8f9eb;
+}
+
+.product-image {
+	border:1px solid grey;
+}
