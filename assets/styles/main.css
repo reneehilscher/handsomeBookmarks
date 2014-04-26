@@ -6,14 +6,15 @@
 
 /*layout*/
 .container {
-	max-width:960px;
-	margin:0 auto;
+	max-width: 960px;
+	margin: 0 auto;
 	overflow: auto;
+	padding: 10px;
 }
 
 .inner-container {
-	width:100%;
-	overflow:auto;
+	width: 100%;
+	overflow: auto;
 
 }
 /*product - images*/
@@ -40,13 +41,13 @@
 
 /*typography*/
 h2 {
-	font-family: 'Pacifico', 'cursive';
+	font-family: "Pacifico", "cursive";
 	font-size: 30px;
 	text-align: center;
 }
 
 nav {
-	width: 60%;
+	width: 63%;
 	float: right;
 	margin-top: 82px;
 	padding-bottom: 14px;
@@ -61,14 +62,14 @@ h1 {
 	text-align: center;
 }
 h1, p , h3 {
-	font-family: 'Josefin Sans', 'sans-serif';
+	font-family: "Josefin Sans", "sans-serif";
 }
 p {
 	font-size: 18px;
 }
 nav a {
 		padding-top: 10px;
-		margin-right:10px;
+		margin-right: 10px;
 }
 
 a {
@@ -79,7 +80,6 @@ a {
 
 #slogan {
 	margin-top: 80px;
-	padding-bottom:0px;
 }
 
 #whyUseIt {
@@ -100,11 +100,10 @@ a {
 }
 
 #website-header {
-	height:120px;
 	background-color:#f8f9eb;
 }
 .reasons {
-	display:none;
+	display: none;
 	text-align: center;
 	margin-top: 70px;
 }
@@ -117,10 +116,95 @@ a {
 
 .header {
 /*	position:fixed;*/
-	max-width:960px;
-	background-color:#f8f9eb;
+	max-width: 960px;
+	background-color: #f8f9eb;
 }
 
 .product-image {
-	border:1px solid grey;
+	border:1px solid #d3d4c8;
 }
+
+.social-media {
+	float:right;
+	width: 70%;
+text-align: right;
+}
+
+
+.social-media li {
+	display:inline;
+	opacity:0.5
+}
+
+.social-media li a {
+	display: inline-block;
+}
+
+.social-media li:hover {
+	opacity:1;
+}
+
+
+#footer-links {
+	overflow:hidden;
+	padding-top: 56px;
+}
+
+.copyright {
+	width: 20%;
+float: left;
+margin-top: 46px;
+}
+
+/*queries*/
+
+@media screen and (max-width : 480px){
+	.callToAction {
+		display:none;
+	}
+
+}  
+
+
+@media screen and (max-width : 760px){
+/* STYLES GO HERE */ 
+	.logo{
+	margin-top: 15px;
+	clear: both;
+	width: 100%;
+	text-align: center;
+	}
+
+	nav {
+		width: 100%;
+	/* float: right; */
+		margin-top: 29px;
+		padding-bottom: 14px;
+		clear:both;
+		text-align:center;
+	}
+
+	.container {
+		padding: 10px;
+	}
+
+	#slogan{
+		margin-top:20px;
+		padding-bottom: 15px;
+	}
+
+	section {
+		margin-bottom:0px;
+		padding-bottom:0px;
+	}
+
+	#product-images {
+		padding-bottom:30px;
+		padding-top:0px;
+	}
+
+	.copyright {
+		width:30%;
+	}
+}
+
